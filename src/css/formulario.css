@@ -1,0 +1,35 @@
+.formulario{
+    margin: 30px;
+    padding: 20px;
+}
+
+.input-basico{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    display: block;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 232, 236);
+    border: none;
+    margin: 15px;
+}
+
+.input-registrar{
+    margin: 15px 0px 0px;
+    padding: 5px 120px 5px 120px;
+    background-color: #c9b3fd;
+    cursor: pointer;
+    color: rgb(33, 3, 33);
+    font-size: 15px;
+    font-family:    'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-registrar:hover{
+    transition: all 0.5s;
+    background-color: rgb(39, 9, 88);
+    color: #fff;
+}

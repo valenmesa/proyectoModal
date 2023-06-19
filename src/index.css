@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(11, 8, 28);
+}
+
+.head{
+  margin-top: 70px;
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.titulo{
+  font-size: 40px;
+  color:rgba(240, 248, 255, 0.956);
+  margin: 0px 0px 0px;
+}
+
+.buscador{
+  text-align: center;
+  margin: 20px 0px 30px;
+}
+
+.barra{
+  background-color: rgba(26, 19, 65, 0.539);
+  padding: 15px 30px;
+  font-size: 18px;
+  outline: none;
+  border: none ;
+  border-radius: 25px;
+  color: rgba(240, 248, 255, 0.582);
+}
+
+table.tabla{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+table.tabla th{
+  background: #21005d;
+  color: #eaddff;
+  padding: 1rem;
+  text-align: center;
+}
+
+table.tabla tbody tr{
+  background: #a5a3ac;
+  color: #21005d;
+  border-radius: 10px;
+  text-align: center;
+  border: solid #b6b4bd 1px;
+}
+
+table.tabla tbody tr:hover{
+  filter: brightness(1.2);
+}
+
+table.tabla tbody tr td{
+  padding: 10px;
+}
+
+table.tabla tbody tr td button{
+  padding: .5rem 1rem;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+table.tabla tbody tr td button.configuracion{
+  padding: .5rem 1rem;
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+  margin: 2%;
+  text-align: center;
+  cursor: pointer;
+}
+
